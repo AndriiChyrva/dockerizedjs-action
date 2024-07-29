@@ -1,0 +1,7 @@
+name: 'dockerizedjs'
+description: 'dockerizedjs'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  entrypoint: '/entrypoint.sh'
+  # entrypoint: 'node /action/dist/index.js'
